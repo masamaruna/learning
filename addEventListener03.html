@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8"/>
+    <title>Anonymous functions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    <h1>HELLO</h1>
+
+    <p>This is a random paragraph just to test if the text color changes. :)</p>
+
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="js-input-field1" placeholder="Write a color for the text"  aria-label="Recipient's username"
+               aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="js-button-addon1">Submit</button>
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="js-input-field2" placeholder="Write a color for the background"  aria-label="Recipient's username"
+               aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="js-button-addon2">Submit</button>
+    </div>
+
+    <p>The text color you choose is <span id="js-text-placeholder"></span></p>
+
+    <p>The background color you choose is <span id="js-background-placeholder"></span></p>
+
+    <script>
+
+        const textInput = document.querySelector("#js-input-field1");
+        const backgroundInput = document.querySelector("#js-input-field2");
+
+        const textButton = document.querySelector("#js-button-addon1");
+        const backgroundButton = document.querySelector("#js-button-addon2");
+
+        const textPlaceholder = document.querySelector("#js-text-placeholder");
+        const backgroundPlaceholder = document.querySelector("#js-background-placeholder");
+
+        const body = document.querySelector("body");
+
+
+        function changeTextColor() {
+            console.log(textInput.value);
+            body.style.color = textInput.value;
+            textPlaceholder.innerHTML = textInput.value;
+        }
+
+        function changeBackgroundColor() {
+            console.log(backgroundInput.value);
+            body.style.backgroundColor = backgroundInput.value;
+            backgroundPlaceholder.innerHTML = backgroundInput.value;
+        }
+
+
+        textInput.addEventListener('keyup', function(event) {
+            console.log("hej", event);
+            if(event.key === "Enter"){
+                changeTextColor();
+            }
+        });
+
+        backgroundInput.addEventListener('keyup', function(event) {
+            console.log("hej", event);
+            if(event.key === "Enter"){
+                changeBackgroundColor();
+            }
+        });
+
+
+        textButton.addEventListener('click', changeTextColor);
+
+        backgroundButton.addEventListener('click', changeBackgroundColor);
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+
+</html>
