@@ -10,23 +10,20 @@ const body = document.querySelector("body");
 
 
 textInput.addEventListener('keyup', function(event){
-    console.log("writing a text color");
     body.style.color = event.target.value;
     textPlaceholder.innerHTML = event.target.value;
 });
 
 backgroundInput.addEventListener('keyup', function (event) {
-    console.log("writing a background color");
     body.style.backgroundColor = event.target.value;
     backgroundPlaceholder.innerHTML = event.target.value;
 });
 
 fontScale.addEventListener('keyup', function (event) {
-    console.log("writing a font size in px");
-    // let value = event.target.value;
-    // if (Number(value) <= 0) {
-    //     event.target.value = 10;
-    // }
-    body.style.fontSize = event.target.value + "px";
-    sizePlaceholder.innerHTML = event.target.value + "px";
+        let value = event.target.value;
+        if (Number(value) <= 0) {
+            value = 1;
+        }
+        body.style.fontSize = value + "px";
+        sizePlaceholder.innerHTML = value + "px";
 });
