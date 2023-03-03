@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+
+    <label for="billAmount"></label>
+        <input type="number" step="0.01" min="0" id="billAmount" placeholder="ie. 25.99">
+
+    <label for="tipAmount"></label>
+        <input type="number" min="0" id="tipAmount" placeholder="ie. 9">
+
+    <button onclick="calculate()">Calculate tip and total bill</button>
+
+    <div class="tip-amount"></div>
+    <div class="total-with-tip"></div>
+
+    <script src="tip-calculator.js"></script>
+
+</body>
+
+</html>
