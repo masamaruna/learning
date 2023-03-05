@@ -91,6 +91,7 @@ buttonSmajli.addEventListener('click', function () {
 const buttonReset = document.querySelector("#reset");
 buttonReset.addEventListener('click', function () {
     inputField.value = "";
+    firstNum = "";
 })
 
 const buttonEqual = document.querySelector("#equal");
@@ -105,6 +106,6 @@ buttonEqual.addEventListener('click', function () {
     } else if (mathSymbol === "multiply") {
         inputField.value = firstNum * secondNum;
     } else {
-        console.log("wtf did you do?");
+        console.log("what did you do?");
     }
 })
