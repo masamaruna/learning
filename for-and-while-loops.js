@@ -35,6 +35,3 @@ while (startingNumTwo <= numTwo) {
 }
 
 liElement.innerHTML = html;
-
-
-// for each loop
