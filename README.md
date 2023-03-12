@@ -1,7 +1,7 @@
 Following some Skillshare JS tutorials!
 
 Links to the courses i followed:
-https://skl.sh/3Li8GAh
+[https://skl.sh/3Li8GAh](https://skl.sh/3Li8GAh)
 
 Hello, here I am logging my progress while learning JS through a Skillshare tutorial.
 
@@ -9,12 +9,12 @@ It is kinda random - but at the end of the day it is not meant to be a functiona
 
 Here are some tasks that I think are worth mentioning - from the first course:
 
-1. [browser-calculator.html](browser-calculator.html)
-2. [mini-project-02.html](mini-project-02.html)
-3. [mini-project-04.html](mini-project-04.html)
-4. [oop-modal.html](oop-modal.html)
-5. [tip-calculator.html](tip-calculator.html)
-6. [final-project.html](final-project.html)
+1. [browser-calculator.html](course-01/browser-calculator.html)
+2. [mini-project-02.html](course-01/mini-project-02.html)
+3. [mini-project-04.html](course-01/mini-project-04.html)
+4. [oop-modal.html](course-01/oop-modal.html)
+5. [tip-calculator.html](course-01/tip-calculator.html)
+6. [final-project.html](course-01/final-project.html)
 
 And from the second course:
 
@@ -22,4 +22,4 @@ And from the second course:
 
 My certificates (gotta catch them all like Pokemon):
 
-- https://skl.sh/3J5fgXR
+- [https://skl.sh/3J5fgXR](https://skl.sh/3J5fgXR)
