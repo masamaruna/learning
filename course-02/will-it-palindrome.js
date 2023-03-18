@@ -2,22 +2,27 @@ const userInput = document.querySelector("#userInput");
 const btnSubmit = document.querySelector(".btnSubmit");
 let answerElement = document.querySelector("#answer");
 
-function CheckIfPalindrome () {
-    let inputArr = Array.from(userInput.value);
-    console.log(inputArr.join("").replaceAll(" ", ""));
+function PalindromeCheck(input) {
 
-    let revInputArr = inputArr.reverse();
-    let revInput = revInputArr.join("");
-    revInput = revInput.replaceAll(" ", "");
-    console.log(revInput);
+    input = input.toLowerCase();
+    input = input.replaceAll(" ", "");
 
-    if (userInput.value.replaceAll(" ", "").toLowerCase() === revInput.toLowerCase()) {
-        console.log("yes");
+    let inputRev = Array.from(input);
+    inputRev = inputRev.reverse();
+    inputRev = inputRev.join("");
+
+    return input === inputRev;
+}
+
+function ClickHandler () {
+
+    const result = PalindromeCheck(userInput.value);
+
+    if (result) {
         answerElement.innerHTML = "YES. YOU CAN BREATHE NOW.";
     } else {
-        console.log("no");
         answerElement.innerHTML = "NO, IT IS NOT. YOU ARE NOT ALLOWED TO CHILL.";
     }
 }
 
-btnSubmit.addEventListener('click', CheckIfPalindrome);
+btnSubmit.addEventListener('click', ClickHandler);
