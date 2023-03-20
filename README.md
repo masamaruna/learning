@@ -1,6 +1,6 @@
 Following some Skillshare JS tutorials!
 
-Links to the courses i followed:
+Links to the courses I followed:
 [https://skl.sh/3Li8GAh](https://skl.sh/3Li8GAh)
 
 Hello, here I am logging my progress while learning JS through a Skillshare tutorial.
@@ -18,7 +18,11 @@ Here are some tasks that I think are worth mentioning - from the first course:
 
 And from the second course:
 
-*in no particular order*
+1. [rotate-on-scroll.html](course-02/rotate-on-scroll.html)
+2. [will-it-palindrome.html](course-02/will-it-palindrome.html)
+3. [simple-calculator.html](course-02/simple-calculator.html) YES, I KNOW, IT USES EVAL. AND YES, I KNOW NOT TO EVER USE IT BECAUSE IT IS A SECURITY HAZARD.
+
+_*in no particular order_
 
 My certificates (gotta catch them all like Pokemon):
 
