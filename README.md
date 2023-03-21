@@ -21,9 +21,11 @@ And from the second course:
 1. [rotate-on-scroll.html](course-02/rotate-on-scroll.html)
 2. [will-it-palindrome.html](course-02/will-it-palindrome.html)
 3. [simple-calculator.html](course-02/simple-calculator.html) YES, I KNOW, IT USES EVAL. AND YES, I KNOW NOT TO EVER USE IT BECAUSE IT IS A SECURITY HAZARD.
+4. [loops-and-arrays.html](course-02/loops-and-arrays.html)
 
 _*in no particular order_
 
 My certificates (gotta catch them all like Pokemon):
 
 - [https://skl.sh/3J5fgXR](https://skl.sh/3J5fgXR)
+- [https://skl.sh/3n1l6Ce](https://skl.sh/3n1l6Ce)
