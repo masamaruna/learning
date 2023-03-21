@@ -2,6 +2,7 @@ Following some Skillshare JS tutorials!
 
 Links to the courses I followed:
 [https://skl.sh/3Li8GAh](https://skl.sh/3Li8GAh)
+[https://skl.sh/3FFhjky](https://skl.sh/3FFhjky)
 
 Hello, here I am logging my progress while learning JS through a Skillshare tutorial.
 
