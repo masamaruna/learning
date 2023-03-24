@@ -1,9 +1,10 @@
 Following some Skillshare JS tutorials!
 
 Links to the courses I followed:
-[https://skl.sh/3Li8GAh](https://skl.sh/3Li8GAh)
-[https://skl.sh/3FFhjky](https://skl.sh/3FFhjky)
-[https://skl.sh/3lAZP1X](https://skl.sh/3lAZP1X)
+[https://skl.sh/3Li8GAh](https://skl.sh/3Li8GAh) - JavaScript
+[https://skl.sh/3FFhjky](https://skl.sh/3FFhjky) - JavaScript
+[https://skl.sh/3lAZP1X](https://skl.sh/3lAZP1X) - HTTP protocol
+[https://skl.sh/3nfSK7E](https://skl.sh/3nfSK7E) - APIs and RESTful APIs
 
 Hello, here I am logging my progress while learning JS through a Skillshare tutorial.
 
@@ -32,3 +33,4 @@ My certificates (gotta catch them all like Pokemon):
 - [https://skl.sh/3J5fgXR](https://skl.sh/3J5fgXR)
 - [https://skl.sh/3n1l6Ce](https://skl.sh/3n1l6Ce)
 - [https://skl.sh/3TCnbRj](https://skl.sh/3TCnbRj)
+- [https://skl.sh/40zjGxd](https://skl.sh/40zjGxd)
