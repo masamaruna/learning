@@ -37,3 +37,17 @@ for (const items of list) {
         alert(a.target.innerHTML);
     })
 }
+
+
+console.log("///////");
+
+
+/// while loop
+
+const greenhouseCapacity = 35;
+let numberOfPlants = 0;
+
+while (numberOfPlants < greenhouseCapacity) {
+    console.log("You still have space for new plants!🪴");
+    numberOfPlants++;
+}
