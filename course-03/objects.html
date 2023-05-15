@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>objects</title>
+</head>
+<body>
+
+<script>
+
+  // some more objects, never enough objects :)
+
+  function Customer(first, last, email, phone) {
+    this.firstName = first;
+    this.lastName = last;
+    this.email = email;
+    this.phoneNumber = phone;
+    this.fullInfo = function () {
+      return this.firstName + " " + this.lastName + "'s phone number is " + this.phoneNumber + " and their email is " + this.email;
+    }
+  }
+
+  const leon = new Customer("Leon", "Dox", "leon@3z.rent", "+3851234567");
+  const masa = new Customer("Masa", "Dox", "masa@mocvara.com", "+385911913456");
+
+  console.log(leon.fullInfo(), masa.fullInfo());
+
+</script>
+
+</body>
+</html>
