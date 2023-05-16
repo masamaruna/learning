@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>First Three.js Project</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+</head>
+
+<body>
+
+  <script src="node_modules/three/build/three.js"></script>
+
+  <script>
+
+    // getting started steps:
+    // scene
+    const scene = new THREE.Scene();
+
+    // camera
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000); // fov, aspect ratio, clip start, clip end (constraints)
+
+    // renderer
+    const renderer = new THREE.WebGL1Renderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    document.body.appendChild(renderer.domElement);  // domElement is a canvas where the renderer draws its output
+
+
+    // create an object you need two things:
+    // geometry
+    const geometry = new THREE.BoxGeometry();
+
+    // material
+    const material = new THREE.MeshBasicMaterial({color : 0xffffff});
+
+    // combining material and geometry with mesh
+    const cube = new THREE.Mesh(geometry, material);
+
+  </script>
+
+</body>
+
+</html>
